@@ -1,3 +1,42 @@
+const works = [
+  {
+    name: 'rayriffy.com',
+    role: 'Founder',
+    href: 'https://rayriffy.com/',
+    year: {
+      start: 2015,
+      end: null
+    }
+  },
+  {
+    name: 'Riffy Blog',
+    role: 'Blogger',
+    href: 'https://blog.rayriffy.com/',
+    year: {
+      start: 2018,
+      end: null
+    }
+  },
+  {
+    name: 'IVAO Headquaters',
+    role: 'Founder',
+    href: 'https://www.ivao.aero/staff/details.asp?Id=DOS4',
+    year: {
+      start: 2018,
+      end: null
+    }
+  },
+  {
+    name: 'IVAO Thailand Division',
+    role: 'Founder',
+    href: 'https://www.ivao.aero/staff/details.asp?Id=TH-AWM',
+    year: {
+      start: 2017,
+      end: null
+    }
+  }
+]
+
 const educations = [
   {
     name: 'Mahidol University',
@@ -93,6 +132,10 @@ const awards = [
   }
 ]
 
+const projects = []
+
+const contributions = []
+
 const languages = [
   {
     lang: 'Thai',
@@ -108,43 +151,23 @@ const languages = [
   }
 ]
 
-const works = [
-  {
-    name: 'rayriffy.com',
-    role: 'Founder',
-    href: 'https://rayriffy.com/',
-    year: {
-      start: 2015,
-      end: null
-    }
-  },
-  {
-    name: 'Riffy Blog',
-    role: 'Blogger',
-    href: 'https://blog.rayriffy.com/',
-    year: {
-      start: 2018,
-      end: null
-    }
-  },
-  {
-    name: 'IVAO Headquaters',
-    role: 'Founder',
-    href: 'https://www.ivao.aero/staff/details.asp?Id=DOS4',
-    year: {
-      start: 2018,
-      end: null
-    }
-  },
-  {
-    name: 'IVAO Thailand Division',
-    role: 'Founder',
-    href: 'https://www.ivao.aero/staff/details.asp?Id=TH-AWM',
-    year: {
-      start: 2017,
-      end: null
-    }
-  }
+const skills = [
+  'React',
+  'JavaScript',
+  'ECMAScript 6',
+  'NodeJS',
+  'Firebase',
+  'Now.sh',
+  'Laravel',
+  'PHP',
+  'MySQL',
+  'MongoDB',
+  'Docker',
+  'TensorFlow',
+  'C',
+  'Python',
+  'Go',
+  'Java'
 ]
 
-export { educations, awards, languages, works }
+export { works, educations, awards, projects, contributions, languages, skills }

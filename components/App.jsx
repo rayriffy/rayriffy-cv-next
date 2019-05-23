@@ -9,9 +9,24 @@ const App = props => {
 
   return (
     <>
-      <Helmet defaultTitle="Riffy CV" titleTemplate="%s · Riffy CV">
-        <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet" />
-      </Helmet>
+      <Helmet
+        defaultTitle="Riffy CV"
+        titleTemplate="%s · Riffy CV"
+        link={[
+          {
+            rel: 'stylesheet',
+            href: 'https://fonts.googleapis.com/css?family=Kanit&display=swap'
+          },
+          {
+            rel: 'shortcut icon',
+            href: '/static/favicon.png'
+          },
+          {
+            rel: 'apple-touch-icon-precomposed',
+            href: '/static/favicon.png'
+          }
+        ]}
+      />
       <TypographyStyle typography={typography} />
       {children}
     </>
