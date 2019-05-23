@@ -24,7 +24,7 @@ const Project = props => {
                 <Card borderRadius={6} p={20} boxShadow='8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03)'>
                   {project.slug ? <Text fontSize={12} color='red'>{project.slug}</Text> : null}
                   <Text fontWeight={500}>{project.name}</Text>
-                  <Text fontSize={14} color={`rgba(0, 0, 0, 0.50)`}>{project.year.start}{project.year.end || project.year.end === null ? ` - ${project.year.end === null ? `Now` : project.year.end}` : null}</Text>
+                  <Text fontSize={14} color='rgba(0, 0, 0, 0.6)'>{project.year.start}{project.year.end || project.year.end === null ? ` - ${project.year.end === null ? `Now` : project.year.end}` : null}</Text>
                   <Text fontSize={14} color='hsla(0,0%,0%,0.8)' mt={10}>{project.links.map(link => (
                     <div key={`proj-${project.name}-${link.name}`}><Link href={link.href}>{link.name}</Link> </div>
                   ))}</Text>

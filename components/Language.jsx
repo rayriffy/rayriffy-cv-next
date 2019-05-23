@@ -17,7 +17,7 @@ const Language = props => {
               <Box width={[1 / 2, 1 / 2, 1 / 3, 1 / 4]} px={10} py={2} key={`lang-${language.lang}`}>
                 <Card borderRadius={6} p={20} boxShadow='8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03)'>
                   <Text fontWeight={500}>{language.lang}</Text>
-                  <Text fontSize={14} color={`rgba(0, 0, 0, 0.50)`}>{language.level}</Text>
+                  <Text fontSize={14} color='rgba(0, 0, 0, 0.6)'>{language.level}</Text>
                 </Card>
               </Box>
             ))}
