@@ -1,0 +1,28 @@
+{
+  "name": "rayriffy-cv-next",
+  "version": "1.0.0",
+  "description": "Riffy's new CV site",
+  "main": "index.js",
+  "repository": "https://github.com/rayriffy/rayriffy-cv-next",
+  "author": "Phumrapee Limpianchop <contact@rayriffy.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.7.0",
+    "react-typography": "^0.16.19",
+    "rebass": "^3.1.0",
+    "styled-components": "^4.2.0",
+    "typography": "^0.16.19"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "deploy": "yarn build && yarn export",
+    "start": "next start"
+  }
+}
