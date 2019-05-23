@@ -1,6 +1,7 @@
 import React from 'react'
 
 import App from '../components/App'
+import Award from '../components/Award'
 import Blog from '../components/Blog'
 import Contact from '../components/Contact'
 import Education from '../components/Education'
@@ -17,6 +18,7 @@ const Index = props => {
       <Contact />
       <Work />
       <Education />
+      <Award />
       <Blog />
       <Language />
       <Skill />
