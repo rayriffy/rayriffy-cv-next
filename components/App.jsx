@@ -10,8 +10,9 @@ const App = props => {
   return (
     <>
       <Helmet
-        defaultTitle="Riffy CV"
-        titleTemplate="%s · Riffy CV"
+        defaultTitle="Curriculum Vitae"
+        title="Phumrapee Limpianchop"
+        titleTemplate="%s · Curriculum Vitae"
         link={[
           {
             rel: 'stylesheet',
