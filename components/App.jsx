@@ -13,6 +13,16 @@ const App = props => {
         defaultTitle="Curriculum Vitae"
         title="Phumrapee Limpianchop"
         titleTemplate="%s · Curriculum Vitae"
+        meta={[
+          {
+              content: 'Phumrapee Limpianchop · Curriculum Vitae',
+              name: 'name',
+            },
+            {
+              content: 'Hi! I\'m Phumrapee Limpianchop, Nice to meet you here.',
+              name: 'description',
+            },
+        ]}
         link={[
           {
             rel: 'stylesheet',
