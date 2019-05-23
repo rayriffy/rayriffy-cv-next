@@ -108,4 +108,43 @@ const languages = [
   }
 ]
 
-export { educations, awards, languages }
+const works = [
+  {
+    name: 'rayriffy.com',
+    role: 'Founder',
+    href: 'https://rayriffy.com/',
+    year: {
+      start: 2015,
+      end: null
+    }
+  },
+  {
+    name: 'Riffy Blog',
+    role: 'Blogger',
+    href: 'https://blog.rayriffy.com/',
+    year: {
+      start: 2018,
+      end: null
+    }
+  },
+  {
+    name: 'IVAO Headquaters',
+    role: 'Founder',
+    href: 'https://www.ivao.aero/staff/details.asp?Id=DOS4',
+    year: {
+      start: 2018,
+      end: null
+    }
+  },
+  {
+    name: 'IVAO Thailand Division',
+    role: 'Founder',
+    href: 'https://www.ivao.aero/staff/details.asp?Id=TH-AWM',
+    year: {
+      start: 2017,
+      end: null
+    }
+  }
+]
+
+export { educations, awards, languages, works }

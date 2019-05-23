@@ -4,11 +4,8 @@ import axios from 'axios'
 import styled from 'styled-components'
 import { Flex, Box, Card, Text } from 'rebass'
 
+import Link from './Link'
 import Title from './Title'
-
-const Link = styled.a`
-  text-decoration: none;
-`
 
 const Blog = props => {
   const [error, setError] = useState(false)
