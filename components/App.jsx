@@ -23,6 +23,10 @@ const App = props => {
             content: 'Hi! I\'m Phumrapee Limpianchop, Nice to meet you here.',
             name: 'description',
           },
+          {
+            content: '#212121',
+            name: 'theme-color'
+          }
         ]}
         link={[
           {
