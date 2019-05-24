@@ -1,13 +1,13 @@
 import React from 'react'
 
 import styled from 'styled-components'
-import { Flex, Box, Text, Card } from 'rebass'
+import { Flex, Box, Text, Card, Link } from 'rebass'
 
 import Title from './Title'
 
 import { projects } from '../data/database'
 
-const Link = styled.a`
+const LinkP = styled(Link)`
   color: hsla(0,0%,0%,0.8);
   text-decoration-color: hsla(0,0%,0%,0.8);
 `
@@ -26,7 +26,7 @@ const Project = props => {
                   <Text fontWeight={500}>{project.name}</Text>
                   <Text fontSize={14} color='rgba(0, 0, 0, 0.6)'>{project.year.start}{project.year.end || project.year.end === null ? ` - ${project.year.end === null ? `Now` : project.year.end}` : null}</Text>
                   <Text fontSize={14} color='hsla(0,0%,0%,0.8)' mt={10}>{project.links.map(link => (
-                    <div key={`proj-${project.name}-${link.name}`}><Link href={link.href}>{link.name}</Link> </div>
+                    <LinkP href={link.href} key={`proj-${project.name}-${link.name}`} mx={1}>{link.name}</LinkP>
                   ))}</Text>
                 </Card>
               </Box>
