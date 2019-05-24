@@ -171,6 +171,10 @@ const projects = [
       {
         name: 'Write-up',
         href: 'https://blog.rayriffy.com/analysis-rayriffy-h/'
+      },
+      {
+        name: 'Website',
+        href: 'https://h.rayriffy.com'
       }
     ],
     year: {
@@ -201,6 +205,10 @@ const projects = [
       {
         name: 'GitHub',
         href: 'https://github.com/rayriffy/rayriffy-blog'
+      },
+      {
+        name: 'Website',
+        href: 'https://blog.rayriffy.com'
       }
     ],
     year: {
