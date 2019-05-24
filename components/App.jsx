@@ -35,6 +35,38 @@ const App = props => {
           {
             rel: 'apple-touch-icon-precomposed',
             href: '/static/favicon.png'
+          },
+          {
+            rel: 'preconnect',
+            href: 'https://blog.rayriffy.com'
+          },
+          {
+            rel: 'preconnect',
+            href: 'https://h.rayriffy.com'
+          },
+          {
+            rel: 'preconnect',
+            href: 'https://rayriffy.com'
+          },
+          {
+            rel: 'preconnect',
+            href: 'https://github.com'
+          },
+          {
+            rel: 'dns-prefetch',
+            href: 'https://blog.rayriffy.com'
+          },
+          {
+            rel: 'dns-prefetch',
+            href: 'https://h.rayriffy.com'
+          },
+          {
+            rel: 'dns-prefetch',
+            href: 'https://rayriffy.com'
+          },
+          {
+            rel: 'dns-prefetch',
+            href: 'https://github.com'
           }
         ]}
       />
