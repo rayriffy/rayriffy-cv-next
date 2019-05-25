@@ -1,9 +1,7 @@
 import React from 'react'
 
 import styled from 'styled-components'
-import { Flex, Box, Text, Heading } from 'rebass'
-
-import Link from './Link'
+import { Box, Text } from 'rebass'
 
 const Love = styled.img`
   height: 14px;

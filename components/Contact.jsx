@@ -11,7 +11,7 @@ const Link = styled.a`
 
 const Contact = props => {
   return (
-    <Flex alignItems='center' mt={40}>
+    <Flex alignItems='center' mt={50}>
       <Box mx='auto' width={[22 / 24, 22 / 24, 20 / 24, 20 / 24]}>
         <Flex>
           <Box width={[1 / 6, 1 / 12, 1 / 12 ,1 / 24]}>
