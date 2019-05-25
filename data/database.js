@@ -46,6 +46,7 @@ const educations = [
       start: 2018,
       end: null
     },
+    banner: '/static/mu.jpg',
     link: {
       name: 'Website',
       href: 'https://mahidol.ac.th'
@@ -59,6 +60,7 @@ const educations = [
       start: 2015,
       end: 2018
     },
+    banner: '/static/mwit.jpg',
     link: {
       name: 'Website',
       href: 'https://www.mwit.ac.th'
@@ -72,6 +74,7 @@ const educations = [
       start: 2011,
       end: 2014
     },
+    banner: '/static/ryw.jpg',
     link: {
       name: 'Website (Insecure)',
       href: 'http://webserver.rayongwit.ac.th/main/main.php'
