@@ -55,7 +55,7 @@ const educations = [
   {
     name: 'Mahidol Wittayanusorn School',
     edu: 'Senior High School',
-    desc: 'Mahidol Wittayanusorn School (MWITS) which in its English translation means “Prince Mahidol Memorial Science School” is funded by the government.',
+    desc: 'Mahidol Wittayanusorn School (MWIT) which in its English translation means “Prince Mahidol Memorial Science School” is funded by the government.',
     year: {
       start: 2015,
       end: 2018
