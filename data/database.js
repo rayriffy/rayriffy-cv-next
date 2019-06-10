@@ -5,8 +5,8 @@ const works = [
     href: 'https://rayriffy.com/',
     year: {
       start: 2015,
-      end: null
-    }
+      end: null,
+    },
   },
   {
     name: 'Riffy Blog',
@@ -14,8 +14,8 @@ const works = [
     href: 'https://blog.rayriffy.com/',
     year: {
       start: 2018,
-      end: null
-    }
+      end: null,
+    },
   },
   {
     name: 'IVAO Headquaters',
@@ -23,8 +23,8 @@ const works = [
     href: 'https://www.ivao.aero/staff/details.asp?Id=DOS4',
     year: {
       start: 2018,
-      end: null
-    }
+      end: null,
+    },
   },
   {
     name: 'IVAO Thailand Division',
@@ -32,9 +32,9 @@ const works = [
     href: 'https://www.ivao.aero/staff/details.asp?Id=TH-AWM',
     year: {
       start: 2017,
-      end: null
-    }
-  }
+      end: null,
+    },
+  },
 ]
 
 const educations = [
@@ -44,13 +44,13 @@ const educations = [
     desc: 'Mahidol University is recognized as a large higher education institution comprising of academicians and professionals in every field, both in arts and sciences.',
     year: {
       start: 2018,
-      end: null
+      end: null,
     },
     banner: '/static/mu.jpg',
     link: {
       name: 'Website',
-      href: 'https://mahidol.ac.th'
-    }
+      href: 'https://mahidol.ac.th',
+    },
   },
   {
     name: 'Mahidol Wittayanusorn School',
@@ -58,81 +58,82 @@ const educations = [
     desc: 'Mahidol Wittayanusorn School (MWIT) which in its English translation means “Prince Mahidol Memorial Science School” is funded by the government.',
     year: {
       start: 2015,
-      end: 2018
+      end: 2018,
     },
     banner: '/static/mwit.jpg',
     link: {
       name: 'Website',
-      href: 'https://www.mwit.ac.th'
-    }
+      href: 'https://www.mwit.ac.th',
+    },
   },
   {
     name: 'Rayongwittayakom School',
     edu: 'Junior High School',
-    desc: 'Rayongwittayakom School was established on August 5, 1971 because the Ministry of Education considered the development of secondary school education to make it appropriate and convenient to allocate teachers and budget in order to make the school administration more effective.',
+    desc:
+      'Rayongwittayakom School was established on August 5, 1971 because the Ministry of Education considered the development of secondary school education to make it appropriate and convenient to allocate teachers and budget in order to make the school administration more effective.',
     year: {
       start: 2011,
-      end: 2014
+      end: 2014,
     },
     banner: '/static/ryw.jpg',
     link: {
       name: 'Website (Insecure)',
-      href: 'http://webserver.rayongwit.ac.th/main/main.php'
-    }
-  }
+      href: 'http://webserver.rayongwit.ac.th/main/main.php',
+    },
+  },
 ]
 
 const awards = [
   {
     name: '19th National Software Contest',
     issuer: 'NECTEC',
-    award: 'First Runner-up in Application Program Category'
+    award: 'First Runner-up in Application Program Category',
   },
   {
     name: '20th National Software Contest',
     issuer: 'NECTEC',
-    award: 'Honorable Mention Award in Application Program Category'
+    award: 'Honorable Mention Award in Application Program Category',
   },
   {
     name: 'Junior Scientist and Technologist Programme',
     issuer: 'NSTDA',
-    award: 'Scholarship Student'
+    award: 'Scholarship Student',
   },
   {
     name: 'Actions on Google Hackathon Thailand 2018',
     issuer: 'Google Developer Group Thailand',
-    award: '1st Runner-up'
+    award: '1st Runner-up',
   },
   {
     name: 'Hack Your Tech 2018',
     issuer: 'MUICT',
-    award: 'First Prize'
+    award: 'First Prize',
   },
   {
     name: 'The Stupid Hackathon 2018',
     issuer: 'StupidHackTH',
-    award: 'First Prize in the most Angry Emoji Vote Category'
+    award: 'First Prize in the most Angry Emoji Vote Category',
   },
   {
     name: 'The Stupid Hackathon 2019',
     issuer: 'StupidHackTH',
-    award: 'Sponsorship Award'
+    award: 'Sponsorship Award',
   },
   {
     name: 'ICT Junior Camp 2018',
     issuer: 'MUICT',
-    award: 'First Prize in Databases and Intelligent Systems'
+    award: 'First Prize in Databases and Intelligent Systems',
   },
   {
     name: 'ACM-ICPC Asia Nakhon Pathom Regional Contest 2018',
     issuer: 'Baylor University',
-    award: 'Contestant'
+    award: 'Contestant',
   },
   {
     name: 'TechJam 2018',
     issuer: 'KBank',
-    award: 'Contestant'
-  }
+    award: 'Contestant',
+  },
 ]
 
 const projects = [
@@ -142,26 +143,26 @@ const projects = [
     links: [
       {
         name: 'GitHub',
-        href: 'https://github.com/rayriffy/rayriffy-cv-next'
-      }
+        href: 'https://github.com/rayriffy/rayriffy-cv-next',
+      },
     ],
     year: {
       start: 2019,
-      end: null
-    }
+      end: null,
+    },
   },
   {
     name: 'M-NET API',
     links: [
       {
         name: 'GitHub',
-        href: 'https://github.com/rayriffy/mnet-api'
-      }
+        href: 'https://github.com/rayriffy/mnet-api',
+      },
     ],
     year: {
       start: 2019,
-      end: null
-    }
+      end: null,
+    },
   },
   {
     name: 'Riffy H',
@@ -169,177 +170,160 @@ const projects = [
     links: [
       {
         name: 'GitHub',
-        href: 'https://github.com/rayriffy/rayriffy-h'
+        href: 'https://github.com/rayriffy/rayriffy-h',
       },
       {
         name: 'Write-up',
-        href: 'https://blog.rayriffy.com/analysis-rayriffy-h/'
+        href: 'https://blog.rayriffy.com/analysis-rayriffy-h/',
       },
       {
         name: 'Website',
-        href: 'https://h.rayriffy.com'
-      }
+        href: 'https://h.rayriffy.com',
+      },
     ],
     year: {
       start: 2018,
-      end: null
-    }
+      end: null,
+    },
   },
   {
     name: 'maimai Song Randomizer',
     links: [
       {
         name: 'GitHub',
-        href: 'https://github.com/rayriffy/maimai-song-randomizer'
+        href: 'https://github.com/rayriffy/maimai-song-randomizer',
       },
       {
         name: 'Google Assistant',
-        href: 'https://assistant.google.com/services/a/uid/00000072b48cd3d6?hl=en'
-      }
+        href: 'https://assistant.google.com/services/a/uid/00000072b48cd3d6?hl=en',
+      },
     ],
     year: {
       start: 2018,
-      end: null
-    }
+      end: null,
+    },
   },
   {
     name: 'Riffy Blog',
     links: [
       {
         name: 'GitHub',
-        href: 'https://github.com/rayriffy/rayriffy-blog'
+        href: 'https://github.com/rayriffy/rayriffy-blog',
       },
       {
         name: 'Website',
-        href: 'https://blog.rayriffy.com'
-      }
+        href: 'https://blog.rayriffy.com',
+      },
     ],
     year: {
       start: 2018,
-      end: null
-    }
+      end: null,
+    },
   },
   {
     name: 'Thai Lottery API',
     links: [
       {
         name: 'GitHub',
-        href: 'https://github.com/rayriffy/thai-lotto-api'
-      }
+        href: 'https://github.com/rayriffy/thai-lotto-api',
+      },
     ],
     year: {
-      start: 2019
-    }
+      start: 2019,
+    },
   },
   {
     name: 'IvAc Thailand Modular Sector File',
     links: [
       {
         name: 'GitHub',
-        href: 'https://github.com/ivaothai/ivac-sector-file'
-      }
+        href: 'https://github.com/ivaothai/ivac-sector-file',
+      },
     ],
     year: {
       start: 2017,
-      end: null
-    }
+      end: null,
+    },
   },
   {
     name: 'Siri FastPass',
     links: [
       {
         name: 'GitHub',
-        href: 'https://github.com/actions-on-falcon/siri-fastpass'
-      }
+        href: 'https://github.com/actions-on-falcon/siri-fastpass',
+      },
     ],
     year: {
-      start: 2018
-    }
+      start: 2018,
+    },
   },
   {
     name: 'MWIT Square XI API',
     links: [
       {
         name: 'GitHub',
-        href: 'https://github.com/rayriffy/mwits-square-xi-api'
-      }
+        href: 'https://github.com/rayriffy/mwits-square-xi-api',
+      },
     ],
     year: {
-      start: 2018
-    }
+      start: 2018,
+    },
   },
   {
     name: 'OrchidGazer',
     links: [
       {
         name: 'GitHub',
-        href: 'https://github.com/rayriffy/OrchidGazer-web'
-      }
+        href: 'https://github.com/rayriffy/OrchidGazer-web',
+      },
     ],
     year: {
       start: 2016,
-      end: 2018
-    }
+      end: 2018,
+    },
   },
   {
     name: 'PRE-MWITS 2018',
     links: [
       {
         name: 'GitHub',
-        href: 'https://github.com/premwits/premwits-2018'
-      }
+        href: 'https://github.com/premwits/premwits-2018',
+      },
     ],
     year: {
-      start: 2017
-    }
+      start: 2017,
+    },
   },
   {
     name: 'PRE-MWITS 2016',
     links: [
       {
         name: 'GitHub',
-        href: 'https://github.com/premwits/premwits-2016'
-      }
+        href: 'https://github.com/premwits/premwits-2016',
+      },
     ],
     year: {
       start: 2014,
-      end: 2015
-    }
-  }
+      end: 2015,
+    },
+  },
 ]
 
 const languages = [
   {
     lang: 'Thai',
-    level: 'Native'
+    level: 'Native',
   },
   {
     lang: 'English',
-    level: 'Excellent'
+    level: 'Excellent',
   },
   {
     lang: 'Japanese',
-    level: 'Good'
-  }
+    level: 'Good',
+  },
 ]
 
-const skills = [
-  'React',
-  'JavaScript',
-  'ECMAScript 6',
-  'NodeJS',
-  'Firebase',
-  'Now.sh',
-  'Laravel',
-  'PHP',
-  'MySQL',
-  'MongoDB',
-  'Docker',
-  'TensorFlow',
-  'C',
-  'Python',
-  'Go',
-  'Java'
-]
+const skills = ['React', 'JavaScript', 'ECMAScript 6', 'NodeJS', 'Firebase', 'Now.sh', 'Laravel', 'PHP', 'MySQL', 'MongoDB', 'Docker', 'TensorFlow', 'C', 'Python', 'Go', 'Java']
 
-export { works, educations, awards, projects, languages, skills }
+export {works, educations, awards, projects, languages, skills}
