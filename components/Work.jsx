@@ -8,7 +8,7 @@ import Title from './Title'
 import { works } from '../data/database'
 
 
-const Work = props => {
+const Work = () => {
   return (
     <>
       <Title title='Works' />

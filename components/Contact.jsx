@@ -9,7 +9,7 @@ const Link = styled.a`
   text-decoration: none;
 `
 
-const Contact = props => {
+const Contact = () => {
   return (
     <Flex alignItems='center' mt={50}>
       <Box mx='auto' width={[22 / 24, 22 / 24, 20 / 24, 20 / 24]}>

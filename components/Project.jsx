@@ -12,7 +12,7 @@ const LinkP = styled(Link)`
   text-decoration-color: hsla(0,0%,0%,0.8);
 `
 
-const Project = props => {
+const Project = () => {
   return (
     <>
       <Title title='Featured Projects' />

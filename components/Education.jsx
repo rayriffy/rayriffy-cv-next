@@ -6,7 +6,7 @@ import Title from './Title'
 
 import { educations } from '../data/database'
 
-const Education = props => {
+const Education = () => {
   return (
     <>
       <Title title='Education' />

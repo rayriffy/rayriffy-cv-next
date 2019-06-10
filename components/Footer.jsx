@@ -9,7 +9,7 @@ const Love = styled.img`
   margin: 0 0 0 0;
 `
 
-const Footer = props => {
+const Footer = () => {
   return (
     <>
       <Box bg='#393a3a' mt={50} py={20}>

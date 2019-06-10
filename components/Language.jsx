@@ -6,7 +6,7 @@ import Title from './Title'
 
 import { languages } from '../data/database'
 
-const Language = props => {
+const Language = () => {
   return (
     <>
       <Title title='Languages' />

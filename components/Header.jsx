@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Flex, Box, Heading, Text } from 'rebass'
 
-const Header = props => {
+const Header = () => {
   return (
     <Flex alignItems='center' mt={150}>
       <Box mx='auto' width={[23 / 24, 23 / 24, 20 / 24, 20 / 24]}>

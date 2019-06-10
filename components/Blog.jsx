@@ -6,7 +6,7 @@ import { Flex, Box, Card, Text } from 'rebass'
 import Link from './Link'
 import Title from './Title'
 
-const Blog = props => {
+const Blog = () => {
   const [error, setError] = useState(false)
   const [raw, setRaw] = useState(null)
   const [fetch, setFetch] = useState(false)
