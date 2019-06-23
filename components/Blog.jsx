@@ -14,7 +14,7 @@ const Blog = () => {
   useEffect(() => {
     if (fetch === false && error === false && raw === null) {
       axios
-        .get('https://blog.rayriffy.com/feed.json')
+        .get('https://blog.rayriffy.com/api/author/rayriffy.json')
         .then(out => {
           setRaw(out.data)
           setFetch(false)
