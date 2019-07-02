@@ -2,7 +2,7 @@ import React from 'react'
 
 import styled from 'styled-components'
 import {Flex, Box} from 'rebass'
-import {FaEnvelope, FaTwitter, FaFacebook} from 'react-icons/fa'
+import {FaEnvelope, FaTwitter, FaFacebook, FaGithub} from 'react-icons/fa'
 
 const Link = styled.a`
   color: hsla(0, 0%, 0%, 0.8);
@@ -17,6 +17,11 @@ const Contact = () => {
           <Box width={[1 / 6, 1 / 12, 1 / 12, 1 / 24]}>
             <Link href="mailto:contact@rayriffy.com" aria-label="Email">
               <FaEnvelope />
+            </Link>
+          </Box>
+          <Box width={[1 / 6, 1 / 12, 1 / 12, 1 / 24]}>
+            <Link href="https://github.com/rayriffy" aria-label="GitHub">
+              <FaGithub />
             </Link>
           </Box>
           <Box width={[1 / 6, 1 / 12, 1 / 12, 1 / 24]}>
