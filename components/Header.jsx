@@ -1,15 +1,21 @@
 import React from 'react'
 
 import {Flex, Box, Heading, Text} from 'rebass'
+import styled from 'styled-components'
+
+const ItalicText = styled(Text)`
+  font-style: italic;
+`
 
 const Header = () => {
   return (
     <Flex alignItems="center" mt={150}>
       <Box mx="auto" width={[23 / 24, 23 / 24, 20 / 24, 20 / 24]}>
         <Heading fontSize={42}>Phumrapee Limpianchop</Heading>
-        <Text color={`rgba(0, 0, 0, 0.75)`} pt={3}>
-          Lyrr viva tou conquieta, Aeterrno amora
-        </Text>
+        <Box pt={3}>
+          <ItalicText color={`rgba(0, 0, 0, 0.6)`}>僕らタイムフライヤー　時を駆け上がるクライマー</ItalicText>
+          <ItalicText color={`rgba(0, 0, 0, 0.6)`}>時のかくれんぼ　はぐれっこはもういやなんだ</ItalicText>
+        </Box>
       </Box>
     </Flex>
   )
