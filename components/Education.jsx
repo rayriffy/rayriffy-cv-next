@@ -13,7 +13,7 @@ const Img = styled(Image)`
 
 const Education = () => {
   return (
-    <>
+    <Box>
       <Title title="Education" />
       <Flex alignItems="center">
         <Box mx="auto" width={[23 / 24, 23 / 24, 22 / 24, 21 / 24]}>
@@ -37,7 +37,7 @@ const Education = () => {
           </Flex>
         </Box>
       </Flex>
-    </>
+    </Box>
   )
 }
 

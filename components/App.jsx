@@ -1,5 +1,9 @@
 import React from 'react'
-import Helmet from 'react-helmet'
+import PropTypes from 'prop-types'
+
+import {Helmet} from 'react-helmet'
+
+import Box from 'rebass'
 
 import {TypographyStyle} from 'react-typography'
 import typography from '../utils/typography'
@@ -8,7 +12,7 @@ const App = props => {
   const {children} = props
 
   return (
-    <>
+    <Box>
       <Helmet
         defaultTitle="Curriculum Vitae"
         title="Phumrapee Limpianchop"
@@ -77,8 +81,12 @@ const App = props => {
       />
       <TypographyStyle typography={typography} />
       {children}
-    </>
+    </Box>
   )
 }
 
 export default App
+
+App.propTypes = {
+  children: PropTypes.node,
+}

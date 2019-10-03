@@ -28,7 +28,7 @@ const Blog = () => {
   }, [raw, error, fetch])
 
   return (
-    <>
+    <Box>
       <Title title="Blogs" />
       <Flex alignItems="center">
         <Box mx="auto" width={[23 / 24, 23 / 24, 22 / 24, 21 / 24]}>
@@ -55,7 +55,7 @@ const Blog = () => {
           </Flex>
         </Box>
       </Flex>
-    </>
+    </Box>
   )
 }
 

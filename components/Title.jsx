@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import {Flex, Box, Heading} from 'rebass'
 
@@ -17,3 +18,7 @@ const Title = props => {
 }
 
 export default Title
+
+Title.propTypes = {
+  title: PropTypes.string,
+}

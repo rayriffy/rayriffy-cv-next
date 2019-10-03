@@ -8,7 +8,7 @@ import {languages} from '../data/database'
 
 const Language = () => {
   return (
-    <>
+    <Box>
       <Title title="Languages" />
       <Flex alignItems="center">
         <Box mx="auto" width={[23 / 24, 23 / 24, 22 / 24, 21 / 24]}>
@@ -26,7 +26,7 @@ const Language = () => {
           </Flex>
         </Box>
       </Flex>
-    </>
+    </Box>
   )
 }
 

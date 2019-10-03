@@ -8,7 +8,7 @@ import {skills} from '../data/database'
 
 const Skill = () => {
   return (
-    <>
+    <Box>
       <Title title="Skills" />
       <Flex alignItems="center">
         <Box mx="auto" width={[23 / 24, 23 / 24, 20 / 24, 18 / 24]}>
@@ -23,7 +23,7 @@ const Skill = () => {
           </Flex>
         </Box>
       </Flex>
-    </>
+    </Box>
   )
 }
 

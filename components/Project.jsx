@@ -14,7 +14,7 @@ const LinkP = styled(Link)`
 
 const Project = () => {
   return (
-    <>
+    <Box>
       <Title title="Featured Projects" />
       <Flex alignItems="center">
         <Box mx="auto" width={[23 / 24, 23 / 24, 22 / 24, 21 / 24]}>
@@ -45,7 +45,7 @@ const Project = () => {
           </Flex>
         </Box>
       </Flex>
-    </>
+    </Box>
   )
 }
 
