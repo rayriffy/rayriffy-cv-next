@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 import {Helmet} from 'react-helmet'
 
-import Box from 'rebass'
+import {Box} from 'rebass'
 
 import {TypographyStyle} from 'react-typography'
 import typography from '../utils/typography'
