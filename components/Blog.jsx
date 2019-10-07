@@ -14,6 +14,7 @@ const Blog = () => {
     axios
       .get('https://blog.rayriffy.com/api/author/rayriffy/1.json')
       .then(out => {
+        console.log(out.data.data)
         setRaw(out.data.data)
       })
       .catch(err => {
