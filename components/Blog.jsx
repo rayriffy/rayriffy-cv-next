@@ -14,7 +14,6 @@ const Blog = () => {
     axios
       .get('https://blog.rayriffy.com/api/author/rayriffy/1.json')
       .then(out => {
-        console.log(out.data.data)
         setRaw(out.data.data)
       })
       .catch(err => {
@@ -37,7 +36,7 @@ const Blog = () => {
               raw.map(blog => (
                 <Box width={[1, 1, 1 / 2, 1 / 2]} px={10} py={2} key={`blog-${blog.title}`}>
                   <Link href={blog.url}>
-                    <Card borderRadius={6} boxShadow="8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03)" backgroundImage={`url(${blog.url})`} backgroundSize="cover">
+                    <Card borderRadius={6} boxShadow="8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03)" backgroundImage={`url(${blog.banner})`} backgroundSize="cover">
                       <Card px={4} pb={4} pt={'25%'} color="white" bg="rgba(0,0,0,0.2)" borderRadius={8}>
                         <Text fontWeight={500} textAlign="center">
                           {blog.title}
