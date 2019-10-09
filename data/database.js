@@ -324,6 +324,6 @@ const languages = [
   },
 ]
 
-const skills = ['React', 'JavaScript', 'ECMAScript 6', 'NodeJS', 'Firebase', 'Now.sh', 'Laravel', 'PHP', 'MySQL', 'MongoDB', 'Docker', 'TensorFlow', 'C', 'Python', 'Go', 'Java']
+const skills = ['TypeScript', 'React', 'Firebase', 'Now.sh', 'Laravel', 'PHP', 'MySQL', 'MongoDB', 'Docker', 'TensorFlow', 'C', 'Python', 'Go', 'Java']
 
 export {works, educations, awards, projects, languages, skills}
