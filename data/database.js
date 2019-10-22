@@ -35,6 +35,15 @@ const works = [
       end: null,
     },
   },
+  {
+    name: 'Level11th',
+    role: 'Part-time Frontend Web Developer',
+    href: '#',
+    year: {
+      start: 2019,
+      end: null,
+    },
+  },
 ]
 
 const educations = [
