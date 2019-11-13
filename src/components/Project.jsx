@@ -23,7 +23,7 @@ const Project = () => {
               <Box width={[1, 1 / 2, 1 / 3, 1 / 3]} px={10} py={2} key={`proj-${project.name}`}>
                 <Card borderRadius={6} p={20} boxShadow="8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03)">
                   {project.slug ? (
-                    <Text fontSize={12} color="red">
+                    <Text fontSize={12} color={`#f5222d`}>
                       {project.slug}
                     </Text>
                   ) : null}
