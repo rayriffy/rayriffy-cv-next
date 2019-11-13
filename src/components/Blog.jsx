@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import axios from 'axios'
+import fetch from 'isomorphic-unfetch'
 
 import {Flex, Box, Card, Text} from 'rebass'
 
@@ -11,10 +11,10 @@ const Blog = () => {
   const [raw, setRaw] = useState(null)
 
   useEffect(() => {
-    axios
-      .get('https://blog.rayriffy.com/api/author/rayriffy/1.json')
-      .then(out => {
-        setRaw(out.data.data)
+    fetch('https://blog.rayriffy.com/api/author/rayriffy/1.json')
+      .then(o => o.json())
+      .then(data => {
+        setRaw(data.data)
       })
       .catch(err => {
         console.log(err)
