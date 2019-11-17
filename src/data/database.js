@@ -19,7 +19,7 @@ const works = [
   },
   {
     name: 'IVAO Headquaters',
-    role: 'Founder',
+    role: 'DevOps',
     href: 'https://www.ivao.aero/staff/details.asp?Id=DOS4',
     year: {
       start: 2018,
@@ -28,7 +28,7 @@ const works = [
   },
   {
     name: 'IVAO Thailand Division',
-    role: 'Founder',
+    role: 'Assistant Webmaster',
     href: 'https://www.ivao.aero/staff/details.asp?Id=TH-AWM',
     year: {
       start: 2017,
@@ -39,6 +39,15 @@ const works = [
     name: 'Level11th',
     role: 'Part-time Frontend Web Developer',
     href: '#',
+    year: {
+      start: 2019,
+      end: null,
+    },
+  },
+  {
+    name: 'BrikL',
+    role: 'Software Engineer',
+    href: 'https://www.brikl.com/',
     year: {
       start: 2019,
       end: null,
