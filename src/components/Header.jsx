@@ -13,8 +13,7 @@ const Header = () => {
       <Box mx="auto" width={[23 / 24, 23 / 24, 20 / 24, 20 / 24]}>
         <Heading fontSize={42}>Phumrapee Limpianchop</Heading>
         <Box pt={3}>
-          <ItalicText color={`rgba(0, 0, 0, 0.6)`}>僕らタイムフライヤー　時を駆け上がるクライマー</ItalicText>
-          <ItalicText color={`rgba(0, 0, 0, 0.6)`}>時のかくれんぼ　はぐれっこはもういやなんだ</ItalicText>
+          <ItalicText color={`rgba(0, 0, 0, 0.6)`}>Code + Music ≈ Life</ItalicText>
         </Box>
       </Box>
     </Flex>
