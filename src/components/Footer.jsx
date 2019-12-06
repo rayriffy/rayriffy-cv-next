@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react"
 
-import styled from 'styled-components'
-import {Box, Text} from 'rebass'
+import styled from "@emotion/styled"
+import { Box, Flex, Text } from "@chakra-ui/core"
 
-const Love = styled.img`
+const Love = styled("img")`
   height: 14px;
   width: auto;
   margin: 0 0 0 0;
@@ -11,11 +11,17 @@ const Love = styled.img`
 
 const Footer = () => {
   return (
-    <Box bg="#393a3a" mt={50} py={20}>
-      <Text textAlign="center" fontSize={14} color="white">
-        Built with <Love src="https://s.w.org/images/core/emoji/2.4/svg/2764.svg" alt="love" /> by rayriffy
+    <Flex bg="#393a3a" mt={12} py={6} justifyContent="center" alignItems="center">
+      <Text fontSize={14} color="white">
+        Built with
       </Text>
-    </Box>
+      <Box px={1}>
+        <Love src="https://s.w.org/images/core/emoji/2.4/svg/2764.svg" alt="love" />
+      </Box>
+      <Text fontSize={14} color="white">
+        by rayriffy
+      </Text>
+    </Flex>
   )
 }
 

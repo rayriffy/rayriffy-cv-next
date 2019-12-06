@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react"
 
-import styled from 'styled-components'
-import {Flex, Box} from 'rebass'
-import {FaEnvelope, FaTwitter, FaFacebook, FaGithub} from 'react-icons/fa'
+import styled from "@emotion/styled"
+import { Flex, Box } from "@chakra-ui/core"
+import { FaEnvelope, FaTwitter, FaFacebook, FaGithub } from "react-icons/fa"
 
-const Link = styled.a`
+const Link = styled("a")`
   color: hsla(0, 0%, 0%, 0.8);
   text-decoration: none;
 `

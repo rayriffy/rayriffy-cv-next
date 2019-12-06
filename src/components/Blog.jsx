@@ -1,48 +1,52 @@
-import React, {useState, useEffect} from 'react'
-import fetch from 'isomorphic-unfetch'
+import React, { useState, useEffect } from "react"
+import fetch from "isomorphic-unfetch"
 
-import {Flex, Box, Card, Text} from 'rebass'
+import { Flex, Box, Heading, Spinner } from "@chakra-ui/core"
 
-import Link from './Link'
-import Title from './Title'
+import Link from "./Link"
+import Title from "./Title"
 
 const Blog = () => {
   const [error, setError] = useState(false)
   const [raw, setRaw] = useState(null)
 
   useEffect(() => {
-    fetch('https://blog.rayriffy.com/api/author/rayriffy/1.json')
+    fetch("https://blog.rayriffy.com/api/author/rayriffy/1.json")
       .then(o => o.json())
       .then(data => {
         setRaw(data.data)
       })
       .catch(err => {
-        console.log(err)
         setError(true)
       })
   }, [])
 
   return (
-    <Box>
+    <React.Fragment>
       <Title title="Blogs" />
       <Flex alignItems="center">
         <Box mx="auto" width={[23 / 24, 23 / 24, 22 / 24, 21 / 24]}>
-          <Flex flexWrap="wrap">
+          <Flex flexWrap="wrap" alignItems="center">
             {error === true ? (
               `Failed to fetch blogs`
             ) : raw === null ? (
-              <Box width={1}>Loading</Box>
+              <Spinner />
             ) : (
               raw.map(blog => (
-                <Box width={[1, 1, 1 / 2, 1 / 2]} px={10} py={2} key={`blog-${blog.title}`}>
+                <Box width={["100%", "100%", 1 / 2, 1 / 2]} px={5} py={2} key={`blog-${blog.title}`}>
                   <Link href={blog.url}>
-                    <Card borderRadius={6} boxShadow="8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03)" backgroundImage={`url(${blog.banner})`} backgroundSize="cover">
-                      <Card px={4} pb={4} pt={'25%'} color="white" bg="rgba(0,0,0,0.2)" borderRadius={8}>
-                        <Text fontWeight={500} textAlign="center">
+                    <Box
+                      borderRadius={6}
+                      boxShadow="8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03)"
+                      backgroundImage={`url(${blog.banner})`}
+                      backgroundSize="cover"
+                    >
+                      <Box px={4} pb={4} pt={"25%"} color="white" bg="rgba(0,0,0,0.2)" borderRadius={8}>
+                        <Heading size="md" textAlign="center">
                           {blog.title}
-                        </Text>
-                      </Card>
-                    </Card>
+                        </Heading>
+                      </Box>
+                    </Box>
                   </Link>
                 </Box>
               ))
@@ -50,7 +54,7 @@ const Blog = () => {
           </Flex>
         </Box>
       </Flex>
-    </Box>
+    </React.Fragment>
   )
 }
 
