@@ -1,10 +1,10 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react'
+import PropTypes from 'prop-types'
 
-import { Flex, Box, Heading } from "@chakra-ui/core"
+import {Flex, Box, Heading} from '@chakra-ui/core'
 
 const Title = props => {
-  const { title } = props
+  const {title} = props
 
   return (
     <Flex alignItems="center">
@@ -20,5 +20,5 @@ const Title = props => {
 export default Title
 
 Title.propTypes = {
-  title: PropTypes.string
+  title: PropTypes.string,
 }

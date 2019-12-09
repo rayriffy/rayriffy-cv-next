@@ -1,11 +1,11 @@
-import React from "react"
+import React from 'react'
 
-import styled from "@emotion/styled"
-import { Flex, Box, Text, Image, Heading } from "@chakra-ui/core"
+import styled from '@emotion/styled'
+import {Flex, Box, Text, Image, Heading} from '@chakra-ui/core'
 
-import Title from "./Title"
+import Title from './Title'
 
-import { educations } from "../data/database"
+import {educations} from '../data/database'
 
 const Img = styled(Image)`
   border-radius: 6px 6px 0 0;
@@ -19,7 +19,7 @@ const Education = () => {
         <Box mx="auto" width={[23 / 24, 23 / 24, 22 / 24, 21 / 24]}>
           <Flex flexWrap="wrap" alignItems="center">
             {educations.map(education => (
-              <Box width={["100%", 1 / 2, 1 / 3, 1 / 3]} px={3} py={2} key={`edu-${education.name}`}>
+              <Box width={['100%', 1 / 2, 1 / 3, 1 / 3]} px={3} py={2} key={`edu-${education.name}`}>
                 <Box borderRadius={6} boxShadow="8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03)">
                   <Img src={education.banner} borderRadius={6} alt={education.name} />
                   <Box p={8}>

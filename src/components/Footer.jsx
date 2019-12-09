@@ -1,9 +1,9 @@
-import React from "react"
+import React from 'react'
 
-import styled from "@emotion/styled"
-import { Box, Flex, Text } from "@chakra-ui/core"
+import styled from '@emotion/styled'
+import {Box, Flex, Text} from '@chakra-ui/core'
 
-const Love = styled("img")`
+const Love = styled('img')`
   height: 14px;
   width: auto;
   margin: 0 0 0 0;

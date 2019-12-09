@@ -1,11 +1,11 @@
-import React from "react"
+import React from 'react'
 
-import { Flex, Box, Text, Heading } from "@chakra-ui/core"
+import {Flex, Box, Text, Heading} from '@chakra-ui/core'
 
-import Link from "./Link"
-import Title from "./Title"
+import Link from './Link'
+import Title from './Title'
 
-import { works } from "../data/database"
+import {works} from '../data/database'
 
 const Work = () => {
   return (

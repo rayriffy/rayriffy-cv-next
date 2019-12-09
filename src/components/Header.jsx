@@ -1,7 +1,7 @@
-import React from "react"
+import React from 'react'
 
-import { Flex, Box, Heading, Text } from "@chakra-ui/core"
-import styled from "@emotion/styled"
+import {Flex, Box, Heading, Text} from '@chakra-ui/core'
+import styled from '@emotion/styled'
 
 const ItalicText = styled(Text)`
   font-style: italic;

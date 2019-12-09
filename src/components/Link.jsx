@@ -1,6 +1,6 @@
-import styled from "@emotion/styled"
+import styled from '@emotion/styled'
 
-const Link = styled("a")`
+const Link = styled('a')`
   text-decoration: none;
 `
 

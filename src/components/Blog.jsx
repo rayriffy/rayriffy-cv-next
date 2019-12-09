@@ -1,22 +1,22 @@
-import React, { useState, useEffect } from "react"
-import fetch from "isomorphic-unfetch"
+import React, {useState, useEffect} from 'react'
+import fetch from 'isomorphic-unfetch'
 
-import { Flex, Box, Heading, Spinner } from "@chakra-ui/core"
+import {Flex, Box, Heading, Spinner} from '@chakra-ui/core'
 
-import Link from "./Link"
-import Title from "./Title"
+import Link from './Link'
+import Title from './Title'
 
 const Blog = () => {
   const [error, setError] = useState(false)
   const [raw, setRaw] = useState(null)
 
   useEffect(() => {
-    fetch("https://blog.rayriffy.com/api/author/rayriffy/1.json")
+    fetch('https://blog.rayriffy.com/api/author/rayriffy/1.json')
       .then(o => o.json())
       .then(data => {
         setRaw(data.data)
       })
-      .catch(err => {
+      .catch(() => {
         setError(true)
       })
   }, [])
@@ -33,15 +33,10 @@ const Blog = () => {
               <Spinner />
             ) : (
               raw.map(blog => (
-                <Box width={["100%", "100%", 1 / 2, 1 / 2]} px={5} py={2} key={`blog-${blog.title}`}>
+                <Box width={['100%', '100%', 1 / 2, 1 / 2]} px={5} py={2} key={`blog-${blog.title}`}>
                   <Link href={blog.url}>
-                    <Box
-                      borderRadius={6}
-                      boxShadow="8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03)"
-                      backgroundImage={`url(${blog.banner})`}
-                      backgroundSize="cover"
-                    >
-                      <Box px={4} pb={4} pt={"25%"} color="white" bg="rgba(0,0,0,0.2)" borderRadius={8}>
+                    <Box borderRadius={6} boxShadow="8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03)" backgroundImage={`url(${blog.banner})`} backgroundSize="cover">
+                      <Box px={4} pb={4} pt={'25%'} color="white" bg="rgba(0,0,0,0.2)" borderRadius={8}>
                         <Heading size="md" textAlign="center">
                           {blog.title}
                         </Heading>
