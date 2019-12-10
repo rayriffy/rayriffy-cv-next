@@ -4,8 +4,8 @@ import React from 'react'
 import AppShell from '../components/App'
 
 class NextApp extends App {
-  render() {
-    const {Component, pageProps} = this.props
+  public render() {
+    const { Component, pageProps } = this.props
 
     return (
       <AppShell>

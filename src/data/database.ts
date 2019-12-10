@@ -1,4 +1,53 @@
-const works = [
+interface IWork {
+  name: string
+  role: string
+  href: string
+  year: {
+    start: number
+    end: number | null
+  }
+}
+
+interface IEducation {
+  name: string
+  edu: string
+  desc: string
+  banner: string
+  link: {
+    name: string
+    href: string
+  }
+  year: {
+    start: number
+    end: number | null
+  }
+}
+
+interface IAward {
+  name: string
+  issuer: string
+  award: string
+}
+
+interface IProject {
+  name: string
+  slug?: string
+  year: {
+    start: number
+    end?: number | null
+  }
+  links: {
+    name: string
+    href: string
+  }[]
+}
+
+interface ILanguage {
+  lang: string
+  level: string
+}
+
+export const works: IWork[] = [
   {
     name: 'rayriffy.com',
     role: 'Founder',
@@ -55,11 +104,12 @@ const works = [
   },
 ]
 
-const educations = [
+export const educations: IEducation[] = [
   {
     name: 'Mahidol University',
     edu: 'Bachelor’s Degree',
-    desc: 'Mahidol University is recognized as a large higher education institution comprising of academicians and professionals in every field, both in arts and sciences.',
+    desc:
+      'Mahidol University is recognized as a large higher education institution comprising of academicians and professionals in every field, both in arts and sciences.',
     year: {
       start: 2018,
       end: null,
@@ -73,7 +123,8 @@ const educations = [
   {
     name: 'Mahidol Wittayanusorn School',
     edu: 'Senior High School',
-    desc: 'Mahidol Wittayanusorn School (MWIT) which in its English translation means “Prince Mahidol Memorial Science School” is funded by the government.',
+    desc:
+      'Mahidol Wittayanusorn School (MWIT) which in its English translation means “Prince Mahidol Memorial Science School” is funded by the government.',
     year: {
       start: 2015,
       end: 2018,
@@ -101,7 +152,7 @@ const educations = [
   },
 ]
 
-const awards = [
+export const awards: IAward[] = [
   {
     name: '19th National Software Contest',
     issuer: 'NECTEC',
@@ -154,7 +205,7 @@ const awards = [
   },
 ]
 
-const projects = [
+export const projects: IProject[] = [
   {
     name: 'rayriffy-cv-next',
     slug: 'THIS SITE',
@@ -213,7 +264,8 @@ const projects = [
       },
       {
         name: 'Google Assistant',
-        href: 'https://assistant.google.com/services/a/uid/00000072b48cd3d6?hl=en',
+        href:
+          'https://assistant.google.com/services/a/uid/00000072b48cd3d6?hl=en',
       },
     ],
     year: {
@@ -327,7 +379,7 @@ const projects = [
   },
 ]
 
-const languages = [
+export const languages: ILanguage[] = [
   {
     lang: 'Thai',
     level: 'Native',
@@ -342,6 +394,19 @@ const languages = [
   },
 ]
 
-const skills = ['TypeScript', 'React', 'Firebase', 'Now.sh', 'Laravel', 'PHP', 'MySQL', 'MongoDB', 'Docker', 'TensorFlow', 'C', 'Python', 'Go', 'Java']
-
-export {works, educations, awards, projects, languages, skills}
+export const skills: string[] = [
+  'TypeScript',
+  'React',
+  'Firebase',
+  'Now.sh',
+  'Laravel',
+  'PHP',
+  'MySQL',
+  'MongoDB',
+  'Docker',
+  'TensorFlow',
+  'C',
+  'Python',
+  'Go',
+  'Java',
+]
