@@ -1,5 +1,7 @@
-import App from 'next/app'
 import React from 'react'
+
+import App from 'next/app'
+import Head from 'next/head'
 
 import AppShell from '../components/App'
 
@@ -9,6 +11,9 @@ class NextApp extends App {
 
     return (
       <AppShell>
+        <Head>
+          <title>Phumrapee Limpianchop · Curriculum Vitae</title>
+        </Head>
         <Component {...pageProps} />
       </AppShell>
     )

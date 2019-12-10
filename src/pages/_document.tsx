@@ -12,7 +12,6 @@ class NextDocument extends Document {
     return (
       <Html lang='en'>
         <Head>
-          <title>Phumrapee Limpianchop · Curriculum Vitae</title>
           <meta
             name='name'
             content='Phumrapee Limpianchop · Curriculum Vitae'
