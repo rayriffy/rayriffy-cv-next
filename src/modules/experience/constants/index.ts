@@ -1,18 +1,16 @@
-interface IWork {
+export interface IExperience {
   name: string
   role: string
-  href: string
   year: {
     start: number
     end: number | null
   }
 }
 
-export const works: IWork[] = [
+export const experiences: IExperience[] = [
   {
     name: 'Riffy Blog',
     role: 'Blogger',
-    href: 'https://blog.rayriffy.com/',
     year: {
       start: 2018,
       end: null,
@@ -21,7 +19,6 @@ export const works: IWork[] = [
   {
     name: 'IVAO Thailand Division',
     role: 'Assistant Webmaster',
-    href: 'https://www.ivao.aero/staff/details.asp?Id=TH-AWM',
     year: {
       start: 2017,
       end: null,
@@ -30,7 +27,6 @@ export const works: IWork[] = [
   {
     name: 'Level11th',
     role: 'Part-time Frontend Web Developer',
-    href: '#',
     year: {
       start: 2019,
       end: null,
@@ -39,7 +35,6 @@ export const works: IWork[] = [
   {
     name: 'BrikL',
     role: 'Software Engineer',
-    href: 'https://www.brikl.com/',
     year: {
       start: 2019,
       end: null,

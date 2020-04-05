@@ -1,6 +1,0 @@
-export * from './awards'
-export * from './educations'
-export * from './languages'
-export * from './projects'
-export * from './skills'
-export * from './works'

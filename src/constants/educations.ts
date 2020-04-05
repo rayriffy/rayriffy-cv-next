@@ -1,4 +1,4 @@
-interface IEducation {
+export interface IEducation {
   name: string
   edu: string
   desc: string

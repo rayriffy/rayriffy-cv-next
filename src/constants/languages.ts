@@ -1,4 +1,4 @@
-interface ILanguage {
+export interface ILanguage {
   lang: string
   level: string
 }

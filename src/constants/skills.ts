@@ -1,4 +1,6 @@
-export const skills: string[] = [
+export type ISkill = string
+
+export const skills: ISkill[] = [
   'TypeScript',
   'React',
   'Firebase',

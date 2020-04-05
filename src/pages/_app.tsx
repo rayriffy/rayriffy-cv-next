@@ -4,9 +4,11 @@ import App from 'next/app'
 import Head from 'next/head'
 
 import {
+  Box,
   ColorModeProvider,
   CSSReset,
   DarkMode,
+  Flex,
   theme,
   ThemeProvider,
 } from '@chakra-ui/core'
@@ -22,9 +24,11 @@ class NextApp extends App {
         </Head>
         <ThemeProvider theme={theme}>
           <CSSReset />
-          <>
-            <Component {...pageProps} />
-          </>
+          <Flex justify='center' pt={24}>
+            <Box width={[22 / 24, 20 / 24, 18 / 24, 12 / 24]}>
+              <Component {...pageProps} />
+            </Box>
+          </Flex>
         </ThemeProvider>
       </React.StrictMode>
     )

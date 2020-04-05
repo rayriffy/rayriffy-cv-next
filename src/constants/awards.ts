@@ -1,4 +1,4 @@
-interface IAward {
+export interface IAward {
   name: string
   issuer: string
   award: string
