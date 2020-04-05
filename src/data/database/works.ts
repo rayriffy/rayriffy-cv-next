@@ -10,27 +10,9 @@ interface IWork {
 
 export const works: IWork[] = [
   {
-    name: 'rayriffy.com',
-    role: 'Founder',
-    href: 'https://rayriffy.com/',
-    year: {
-      start: 2015,
-      end: null,
-    },
-  },
-  {
     name: 'Riffy Blog',
     role: 'Blogger',
     href: 'https://blog.rayriffy.com/',
-    year: {
-      start: 2018,
-      end: null,
-    },
-  },
-  {
-    name: 'IVAO Headquaters',
-    role: 'DevOps',
-    href: 'https://www.ivao.aero/staff/details.asp?Id=DOS4',
     year: {
       start: 2018,
       end: null,

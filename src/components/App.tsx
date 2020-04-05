@@ -3,7 +3,6 @@ import React from 'react'
 import { CSSReset, DefaultTheme, theme, ThemeProvider } from '@chakra-ui/core'
 
 import Footer from './Footer'
-import Header from './Header'
 
 const App: React.FC = props => {
   const { children } = props
@@ -20,9 +19,8 @@ const App: React.FC = props => {
   }
 
   return (
-    <ThemeProvider theme={customTheme}>
+    <ThemeProvider theme={theme}>
       <CSSReset />
-      <Header />
       {children}
       <Footer />
     </ThemeProvider>
